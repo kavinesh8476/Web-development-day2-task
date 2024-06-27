@@ -1,1 +1,113 @@
 # Web-development-day2-task
+## AIM:
+To create a form in website to get input of name ,age,gender,mail and password.
+## CODE:
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body{
+                background-image: url(pexels-maoriginalphotography-1485894.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            
+            }
+            form{
+                height: 300px;
+                width: 300px;
+                background-color: rgba(255,255,255,0.13);
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+                border-radius: 10px;
+                backdrop-filter: blur(10px);
+                border: 2px solid rgba(255,255,255,0.1);
+                box-shadow: 0 0 40px rgba(8,7,16,0.6);
+                padding: 50px 35px;
+            }
+            
+
+        
+        </style>
+        
+    </head>
+
+    <body style="color:rgb(255, 255, 255);">
+        <center>
+            <h1>Registration form</h1>
+            <form>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="First name" required>
+    
+                </div>
+                <br>
+    
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last name" required>
+
+                </div>
+                <br>
+
+                
+
+                <div>
+                    <label for="Title">Title :</label>
+
+                    <label for="mr">Mr</label>
+                    <input type="radio" id="mr" name="mr"  required>
+
+                    <label for="mrs">Mrs</label>
+                    <input type="radio" id="mrs" name="mrs"  required>
+
+                    <label for="ms">Ms</label>
+                    <input type="radio" id="ms" name="ms"  required>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="enter email" required>
+
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    
+                    </select>
+                    
+                </div>
+                <br>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="enter password" requireds>
+
+                </div>
+                <br>
+    
+                <div element=".mydiv">
+                    <button>Submit</button>
+                    <button type="reset">Reset</button>
+
+                </div>
+                
+                
+    
+            </form>
+        </center>
+        
+    </body>
+```
+## OUTPUT:
+![image](https://github.com/kavinesh8476/Web-development-day2-task/assets/118466561/48e42eaf-523f-480a-9cdb-b8b9eb7f1dd0)
